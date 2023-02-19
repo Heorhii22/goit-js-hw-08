@@ -37,5 +37,7 @@ function populateTextArea() {
   if (data) {
     inputEl.value = parsedData.email || '';
     textareaEl.value = parsedData.message || '';
+    formData.email = parsedData.email || '';
+    formData.message = parsedData.message || '';
   }
 }
